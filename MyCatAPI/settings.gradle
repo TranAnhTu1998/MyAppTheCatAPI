@@ -1,0 +1,2 @@
+rootProject.name='MyCatAPI'
+include ':app', ':com.android.volley-2015.05.28', ':okhttp-2.3.0', ':gson-2.3', ':picasso-2.5.2', ':picasso2-okhttp3-downloader-1.1.0', ':okhttp-3.9.0'

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/id_imageview_cat"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/id_like"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="Like"
+                android:layout_gravity="right" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/id_dislike"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Dislike"
+                android:layout_gravity="left" />
+        </LinearLayout>
+    </LinearLayout>>
+
+</LinearLayout>
